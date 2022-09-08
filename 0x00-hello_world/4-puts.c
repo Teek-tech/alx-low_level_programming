@@ -3,7 +3,7 @@
 /*
  * main - Entry point
  *
- * Description: Write a C program that prints exactly a sentence followed by a new line.
+ * Description: Write a C program that prints a sentence.
  *
  * Return: Always 0 (Success)
  */
