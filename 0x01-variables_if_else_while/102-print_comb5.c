@@ -21,6 +21,7 @@ int main(void)
 	for (; jfirst < 58; jfirst++)
 	{
 	for (; j < 58; j++)
+	{
 	putchar(ifirst);
 	putchar(i);
 	putchar(' ');
@@ -33,6 +34,7 @@ int main(void)
 	}
 	}
 	j = 48;
+	}
 	}
 	}
 	putchar('\n');
