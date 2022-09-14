@@ -3,6 +3,8 @@
 /**
  * _isalpha - check the code.
  *
+ *@c: number being tested
+ *
  * Return: Always 0
  */
 
