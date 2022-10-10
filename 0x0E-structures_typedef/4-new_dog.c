@@ -11,6 +11,7 @@
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *p;
+
 	/* reserving memory to struct*/
 	p = malloc(sizeof(dog_t));
 	if (p == NULL)
