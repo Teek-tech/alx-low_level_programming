@@ -1,4 +1,6 @@
 #include "3-calc.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * get_op_func - entry point
  * @s: get sign to operate
@@ -14,12 +16,13 @@ int (*get_op_func(char *s))(int a, int b)
 		{"%", op_mod},
 		{NULL, NULL}
 	};
+
 	int i = 0;
 
-	while (i <= 5)
+	while (op_s[i].op)
 	{
-		if (*s == ops[i].op[0])
-			return (ops[i].f);
+		if (*(op_s[i].op) == *s)
+			return (op_s[i].f);
 		i++;
 	}
 	/* Return NULL if it can't operate */
