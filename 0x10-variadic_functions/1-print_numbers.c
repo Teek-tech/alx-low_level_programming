@@ -8,6 +8,7 @@
  * @n: elements to be printed
  * Return: void
  */
+
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list valist;
@@ -20,7 +21,9 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	{
 	printf("%d", va_arg(valist, const unsigned int));
 	if (i != (n - 1))
+	{
 	printf("%s", separator);
+	}
 	}
 	printf("\n");
 	va_end(valist);
