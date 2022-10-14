@@ -4,10 +4,9 @@
 
 /**
  * sum_them_all - sum all the parametes.
- * a blank line
  * @n: the number of parameters
- * Description: this function sum all the parameters)?
- * section header: the header of this function is variadic_functions.h)*
+ * Description: this function sum all the parameters
+ * 
  * Return: this return the sum of the parameters.
  */
 
