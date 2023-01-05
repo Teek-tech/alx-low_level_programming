@@ -87,10 +87,4 @@ void shash_table_print(const shash_table_t *ht);
 void shash_table_print_rev(const shash_table_t *ht);
 void shash_table_delete(shash_table_t *ht);
 
-int search_and_replace(shash_table_t *ht, const char *key, const char *value);
-shash_node_t *create_node(shash_table_t *ht, const char *key, const char *val);
-void print_in_order(const shash_table_t *ht, _Bool in_order);
-void insert_in_beginning(shash_table_t *ht, shash_node_t *new_node);
-void insert_in_middle_or_end(shash_table_t *ht, shash_node_t *new_node);
-
 #endif /* HASH_TABLES_H */
